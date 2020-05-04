@@ -139,10 +139,11 @@ p2{
 }
 
 .social{
-  color: white;
-  padding: 5em;
-  background-color:black;
-  border-style: double;
+  color: black;
+  padding: 3em;
+  /* background-color:black; */
+  /* border-style: double; */
+  box-sizing: inherit;
 }
 .social-links{
   color: inherit;
