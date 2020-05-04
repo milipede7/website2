@@ -100,6 +100,15 @@ p2{
   /* background-color: rgba(255, 255, 255, 0.4); */
 }
 
+.pic{
+  /* padding: .5em;
+  margin: .5em;
+  position: relative;
+  justify-content: center; */
+  max-width: 50%;
+  max-height: 50%;
+}
+
 .projects{
   z-index: 1;
   margin: 2%;
