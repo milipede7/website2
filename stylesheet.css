@@ -118,9 +118,9 @@ p2{
   align-items: stretch; */
 }
 .projects:hover{
-  background-color:red;
+  /* background-color:red; */
   box-shadow: none;
-  transition: 0.3s;
+  transition: 2s;
 }
 
 .home{
@@ -163,6 +163,9 @@ p2{
 canvas {
   border-radius: 100%;
   margin-left: 20%;
+  margin-top: 90%;
+  box-shadow: 10px 10px 50px blue, 5px 5px 75px red, 5px 5px 100px green;
+
 }
 
 iframe {
