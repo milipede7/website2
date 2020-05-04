@@ -8,9 +8,9 @@ html{
 }
 
 /* Typography */
-body {font-family: "courier new", courier, "Andale Mono"; font-size: 13px;}
-ul li, p, em {font-size: 11px; font-style: normal;}
-h1 {font-size: 13px; font-weight: bolder; border-radius: 2em;}
+body {font-family: "courier new", courier, "Andale Mono"; font-size: 14px;}
+ul li, p, em {font-size: 14px; font-style: normal;}
+h1 {font-size: 14px; font-weight: bolder; border-radius: 2em;}
 a {text-decoration: none;}
 
 /* #sketch-holder{
