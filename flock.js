@@ -5,7 +5,7 @@ let canvas;
 
 function setup() {
   // canvas.parent("sketch-holder");
-  canvas = createCanvas(windowWidth/2, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0,0);
   canvas.style('z-index','-1');
 
@@ -18,7 +18,7 @@ function setup() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth/2, windowHeight/2);
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -123,8 +123,8 @@ Boid.prototype.seek = function(target) {
 Boid.prototype.render = function() {
   // Draw a triangle rotated in the direction of velocity
   let theta = this.velocity.heading() + radians(90);
-  fill(153, 204, 255);
-  stroke(255, 204, 0);
+  fill(255, 255, 255);
+  stroke(199, 199, 199);
   push();
   translate(this.position.x, this.position.y);
   rotate(theta);
