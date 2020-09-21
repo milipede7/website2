@@ -59,9 +59,11 @@ body{
   margin: 1em;
   line-height: 2.0;
 }
+
 #contact:hover{
     color: rgb(153, 0, 0);
   }
+
 #cv:hover{
     color: rgb(153, 0, 0);
   }
@@ -143,7 +145,7 @@ border: 1px solid;
 
 .projects{
   z-index: 1;
-  margin: 2%;
+  margin: 1%;
   color:black;
   cursor: cell;
   padding: 20px;
