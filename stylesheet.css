@@ -32,11 +32,12 @@ body{
   margin-top: 2%;
   margin-bottom: 5%;
   color: black;
-  /* background-color: rgba(255, 255, 255, 0.4); */
+  background-color: rgba(255, 255, 255, 0.4);
   border: 1px solid;
   padding: .5em;
   text-decoration: none;
   transition: 0.5s ease-in-out;
+  font-size: 20px;
 }
 .name:hover{
   transition: 0.5s;
@@ -82,21 +83,51 @@ p2{
   color: black;
 }
 
+.descriptions{
+  height: fit-content;
+  width: fit-content;
+  margin-right: 60%;
+  display:inline-block;
+}
+
+.shoutout{
+  width:fit-content;
+  height:fit-content;
+  padding: 5%;
+  margin-top: 15%;
+  margin-left: 60%;
+  margin-right: 20%;
+  background-color: rgba(255,255,255,.4);
+  display: inline-block;
+  position: sticky;
+  top: 0;
+}
+
+.shoutout:hover{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
 .bio{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 100%;
-/* border: 1px solid; */
-/* background-color: rgba(255, 204, 0, 50); */
+  width: fit-content;
+  padding: 2em;
+  margin-left: 20%;
+  margin-right: 30%;
+  margin-top: 15%;
+border: 1px solid;
+/* background-color: rgba(255, 204, 0, .20); */
 }
 
 .vid{
   padding: .5em;
-  margin: .5em;
+  margin-left: auto;
   position: relative;
   justify-content: center;
+  display: inline-block;
+  min-width: 560px;
+  min-height: 315px;
   /* border-style: double; */
   /* background-color: rgba(255, 255, 255, 0.4); */
 }
@@ -114,19 +145,19 @@ p2{
   z-index: 1;
   margin: 2%;
   color:black;
-  /* background-color: rgba(255, 255, 255, 0.4); */
   cursor: cell;
-  /* border: 1px solid; */
   padding: 20px;
   box-shadow: 0px 0px 50px blue, 0px 0px 75px red, 0px 0px 100px green;
+  background-color: rgba(255, 255, 255, 0.4);
   transition: box-shadow 2s ease-in-out;
   text-decoration: none;
-  border-radius: 100%;
+  /* border-radius: 100%; */
+  border: 1px solid;
   top: 60%;
-
-  overflow:visible
-  outline: 10px solid transparent;
+  overflow:visible;
+  /* outline: 1px solid black; */
   line-height: 7;
+  display: inline-flex;
 }
 
 .projects:hover{
@@ -142,21 +173,30 @@ p2{
   /* background-color: rgba(255, 255, 255, 0.4); */
   cursor: cell;
   /* border: 1px solid; */
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0px 20px 20px blue, 0px 20px 20px red, 0px 20px 20px green;
   transition: box-shadow 2s ease-in-out;
   text-decoration: none;
   border-radius: 100%;
   top: 60%;
-  overflow:visible
+  overflow:visible;
   outline: 10px solid transparent;
-  line-height: 10;
+  line-height: 80;
+  display:inline-flex;
 }
 
 .phoneprojects:hover{
   /* background-color:red; */
   box-shadow: none;
   transition: .5s;
+}
+
+.phonebio{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50%;
 }
 
 /* .icons{
